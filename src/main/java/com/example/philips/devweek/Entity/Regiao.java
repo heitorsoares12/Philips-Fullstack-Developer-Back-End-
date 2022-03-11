@@ -11,7 +11,7 @@ public class Regiao {
     private String regiao;
     private Integer total_exames;
 
-    public Regiao(String regiao, Integer total) {
+    public Regiao(Long id, String regiao, Integer total) {
         this.regiao = regiao;
         this.total_exames = total;
     }
